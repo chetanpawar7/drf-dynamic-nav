@@ -1,5 +1,5 @@
 # DRF Dynamic Navigation
-
+PYPI PACKAGE LINK : https://pypi.org/project/drf-dynamic-nav/
 A reusable Django REST Framework package for building **dynamic, role-based navigation systems**.
 
 `drf-dynamic-nav` allows you to manage menus, submenus, pages, widgets, and permissions dynamically from the database instead of hardcoding navigation logic in your frontend.
