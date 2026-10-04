@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "drf-dynamic-nav"
+version = "0.1.0"
+description = "Dynamic navigation and role-based permissions for Django REST Framework"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    { name = "Chetan Pawar" }
+]
+
+license = { text = "MIT" }
+
+dependencies = [
+    "Django>=4.2,<6.0",
+    "djangorestframework>=3.14,<4.0",
+    "djangorestframework-simplejwt>=5.5.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/chetanpawar/drf-dynamic-nav"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/drf_dynamic_nav"]
