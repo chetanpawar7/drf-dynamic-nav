@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/chetanpawar/drf-dynamic-nav"
+Homepage = "https://github.com/chetanpawar7/drf-dynamic-nav"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/drf_dynamic_nav"]
